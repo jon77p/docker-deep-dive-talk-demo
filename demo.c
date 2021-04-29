@@ -22,7 +22,7 @@
 #define PARENT 0
 #define CHILD 1
 
-#define SLEEP_TIMEOUT "60"
+#define SLEEP_TIMEOUT "infinity"
 #define HOSTNAME "demo-namespace"
 
 static int pivot_root(const char *new_root, const char *old_root) {
